@@ -16,10 +16,10 @@ spec:
         ref:
           name: productpage
           namespace: bookinfo-frontends
-    labels:
-      waf: "true"
-      oauth: "true"
-      ratelimited: "true"
+ #   labels:
+ #     waf: "true"
+ #     oauth: "true"
+ #     ratelimited: "true"
     matchers:
     - uri:
         exact: /productpage
